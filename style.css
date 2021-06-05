@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.line {
+    height: 6px;
+    margin: 8px auto;
+    border: 2px;
+    background-color: floralwhite;
+    width: 70px;
+}
+
+img {
+    transition: transform .2s;
+}
+img: hover {
+    transform: scale (0.9);
+}
